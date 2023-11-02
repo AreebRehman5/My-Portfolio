@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62%;
+}
+.upper-nav>h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #ffff;
+}
+.upper-nav{
+    background-color: hwb(24 4% 7%);
+    display: flex;
+    justify-content: space-around;
+}
+.nav>a{
+    text-decoration: none;
+    padding: 1.5rem;
+    font-weight: 400;
+    color: #ffff;
+    font-size: 2.5rem;
+}
+.nav>a:hover{
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.my-image>img{
+    border-radius: 50rem;
+    width: 50rem;
+}
+.info>h2{
+    font-size: 6rem;
+    color: #ffff;
+    padding-top: 50%;
+}
+#hi{
+    color: hsl(0, 94%, 52%);
+}
+#am{
+    font-size: 3rem;
+}
+.personal-info{
+    background-color: 
+    hwb(180 5% 93%);
+}
+.personal-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem;
+}
+.main-portfolio{
+    background-color:hwb(200 6% 8%);
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+#stop-watch{
+    width: 38rem;
+    height: 45rem;
+    padding: 2rem;
+}
+#card{
+    width: 38rem;
+    height: 45rem;
+    padding: 2rem;
+}
+#quiz{
+    width: 110rem;
+}
+.main-portfolio>h2{
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 5rem;
+    color: hsl(0, 17%, 92%);
+    padding-bottom: 5rem;
+}
+.second-last{
+    background-color: hwb(205 81% 13%);
+    padding-bottom: 10rem;
+}
+.second-last>h2{
+    color: hsl(0, 36%, 5%);
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.top_contact>a , .bottom_contact>a{
+    text-decoration: none;
+    color: hsl(60, 6%, 6%);
+    font-size: 5rem;
+    padding: 5rem;
+    padding-top: 10rem;
+}
+.top_contact , .bottom_contact {
+    display: flex;
+    justify-content: center;
+}
+.last{
+    background-color: hsl(204, 21%, 86%);
+    padding: 4rem;
+}
+.last>h2{
+    color: hsl(0, 90%, 53%);
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media(max-width:1523px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:1183px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:1035px){
+    html{
+        font-size: 40%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 45rem;
+    }
+}
+@media(max-width:915px){
+    html{
+        font-size: 35%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 45rem;
+    }
+    .my-image>img{
+        width: 45rem;
+    }
+}
+@media(max-width:749px){
+    html{
+        font-size: 30%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 45rem;
+    }
+    .my-image>img{
+        width: 45rem;
+    }
+}
+@media(max-width:645px){
+    html{
+        font-size: 28%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 70rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 45rem;
+    }
+}
+@media(max-width:615px){
+    html{
+        font-size: 25%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 70rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 40rem;
+    }
+}
+@media(max-width:509px){
+    html{
+        font-size: 20%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 70rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 40rem;
+    }
+}
+@media(max-width:429px){
+    html{
+        font-size: 20%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 70rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 30rem;
+    }
+    .info>h2{
+        padding-top: 25%;
+    }
+}
+@media(max-width:397px){
+    html{
+        font-size: 18%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 60rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 25rem;
+    }
+    .info>h2{
+        padding-top: 25%;
+    }
+}
+@media(max-width:331px){
+    html{
+        font-size: 16%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 60rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 25rem;
+    }
+    .info>h2{
+        padding-top: 25%;
+    }
+}
+@media(max-width:293px){
+    html{
+        font-size: 14%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 60rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 25rem;
+    }
+    .info>h2{
+        padding-top: 25%;
+    }
+}
+@media(max-width:255px){
+    html{
+        font-size: 12%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 60rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 25rem;
+    }
+
+    .info>h2{
+        padding-top: 25%;
+    }
+}
+@media(max-width:220px){
+    html{
+        font-size: 11%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 60rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 25rem;
+    }
+    .info>h2{
+        padding-top: 25%;
+    }
+    #stop-watch{
+        width: 30rem;
+        height: 45rem;
+    }
+    #card{
+        width: 30rem;
+        height: 45rem;
+    }
+}
+@media(max-width:213px){
+    html{
+        font-size: 10%;
+    }
+    .second-two>a>img , .third-two>a>img{
+        width: 60rem;
+    }
+    .second-two , .third-two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image>img{
+        width: 20rem;
+    }
+    .info>h2{
+        padding-top: 15%;
+    }
+    #stop-watch{
+        width: 30rem;
+        height: 45rem;
+    }
+    #card{
+        width: 30rem;
+        height: 45rem;
+    }
+}
